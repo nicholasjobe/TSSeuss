@@ -1,0 +1,70 @@
+/* CSS Document */
+body{background-color: red}
+body{background-image: url("SeussBackground.jpg");
+background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+background-size: cover;}
+body{font-style: normal}
+
+#content {
+  float: right ;
+  width: 80% ;
+}
+
+#navbar {
+  float: right;
+  width: 20%;
+}
+
+.nav{
+	width: 185px;
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+}
+
+.section#main{
+	width: 500;
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.nav li a {
+  list-style-type: none;
+  margin: 5px;
+  padding: 7px 22px;
+  overflow: hidden;
+  background-color: darkred;
+  border-radius: 20px ;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+}
+
+.nav li a:hover {
+  background-color: deepskyblue;
+  color: black;
+}
+
+.nav li {
+  border-right: 1px solid white;
+  list-style-type: none;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+.boxed {
+  background-color: #ffffff ;
+  padding: 40px ;
+  border-radius: 100px ;
+  border: 1px solid #000000 ;
+}
